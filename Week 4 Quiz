@@ -1,0 +1,27 @@
+1.Question 1
+Using Image Generator, how do you label images?
+It’s based on the directory the image is contained in
+
+2.Question 2
+What method on the Image Generator is used to normalize the image?
+rescale
+
+3.Question 3
+How did we specify the training size for the images?
+The target_size parameter on the training generator
+
+4.Question 4
+When we specify the input_shape to be (300, 300, 3), what does that mean?
+Every Image will be 300x300 pixels, with 3 bytes to define color
+
+5.Question 5
+If your training data is close to 1.000 accuracy, but your validation data isn’t, what’s the risk here?
+You’re overfitting on your training data
+
+6.Question 6
+Convolutional Neural Networks are better for classifying images like horses and humans because:
+All of the above
+
+7.Question 7
+After reducing the size of the images, the training results were different. Why?
+We removed some convolutions to handle the smaller images
